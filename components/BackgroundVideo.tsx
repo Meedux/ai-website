@@ -22,7 +22,7 @@ const BackgroundVideo = ({ src, id }: { src: string, id: string }) => {
   }, [id]);
 
   const getParallaxEffect = (sectionOffsetTop: number, scrollFactor = 0.5) => {
-    const relativeScrollY = scrollY - sectionOffsetTop;
+    const relativeScrollY = scroll - sectionOffsetTop;
     return `translateY(${relativeScrollY * scrollFactor}px)`;
   };
   return (

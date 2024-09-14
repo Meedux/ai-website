@@ -4,8 +4,9 @@ import HeroFour from "@/components/Landing/HeroFour";
 import HeroOne from "@/components/Landing/HeroOne";
 import HeroThree from "@/components/Landing/HeroThree";
 import HeroTwo from "@/components/Landing/HeroTwo";
+import News from "@/components/Landing/News";
 import Video from "@/components/Landing/Video";
-import Image from "next/image";
+import Volunteers from "@/components/Landing/Volunteers";
 
 export default function Home() {
   return (
@@ -23,7 +24,9 @@ export default function Home() {
       {/* Hero */}
       <HeroFive />
       {/* News */}
+      <News />
       {/* Volunteers */}
+      <Volunteers />
     </>
   );
 }

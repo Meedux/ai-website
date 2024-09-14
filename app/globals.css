@@ -31,7 +31,7 @@ body {
   height: 100vh; /* Adjust height as needed */
   overflow: hidden;
   display: flex;
-  align-items: center;
+  align-items: end;
   justify-content: center;
   background-color: #000; /* Fallback color */
 }
@@ -51,7 +51,10 @@ body {
   position: relative;
   color: #fff;
   text-align: center;
-  z-index: 1; /* Ensure the text is above the video */
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 8rem;
+  z-index: 1;
 }
 
 .hero-heading {

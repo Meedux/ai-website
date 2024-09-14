@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
 
-const Card = () => {
+const VideoCard = () => {
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center mb-5">
         <Image src={"/img.jpg"} alt="Image" width={227} height={300} />
         <div className=" border-t-white border-t-2 mt-5 w-full">
             <div className="flex justify-between items-center">
@@ -17,4 +17,4 @@ const Card = () => {
   )
 }
 
-export default Card
+export default VideoCard
