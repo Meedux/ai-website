@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -6,7 +7,7 @@ const NewsCard = () => {
     <>
       <div className="card bg-transparent w-[20rem] shadow-xl mb-5">
         <figure>
-          <img
+          <Image
             src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
             alt="Shoes"
           />

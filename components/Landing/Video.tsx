@@ -1,5 +1,4 @@
 import React from 'react'
-import Card from './Cards/VideoCard'
 import VideoCard from './Cards/VideoCard'
 
 const Video = () => {
