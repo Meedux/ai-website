@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Link from "next/link"; // Assuming you're using Next.js
 import NavbarContent from "./NavbarContent";
 
 const FixedNavbar = () => {
